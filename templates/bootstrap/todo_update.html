@@ -1,0 +1,20 @@
+{% extends "bootstrap/base.html" %} {% block content %}
+<div class="row">
+  <dic class="col">
+    <form action="" method="post" class="form-control">
+      {% csrf_token %}
+      <label for="title" class="form-label">Title</label>
+      <input
+        type="text"
+        class="form-control"
+        id="title"
+        name="title"
+        vlaue="{{ todo.title}}"
+        placeholder="Enter your todo.."
+      />
+      <button type="submit" class="btn btn-success btn-lg mt-4">Save</button>
+    </form>
+  </dic>
+</div>
+
+{% endblock content %}
