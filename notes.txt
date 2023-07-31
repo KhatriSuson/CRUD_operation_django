@@ -1,0 +1,11 @@
+1. In vs code press ctrl + shift + p 
+type Default profile
+
+2. press ctrl + shift + p 
+then type select interpreter
+
+3. in terminal type "cd .\venv\Scripts\activate"
+
+4. In root folder djnago install using cmd "pip install django"
+
+5. django-admin startproject TODO .
